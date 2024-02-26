@@ -13,10 +13,10 @@ from cloudinary.uploader import upload
 
 #configuration
 cloudinary.config( 
-  cloud_name = "dl0wqikrb", 
-  api_key = "339671134578499", 
-  api_secret = "41rhjd97v6vLOi3caAiuQa5YWzc" 
-)
+  cloud_name = "", 
+  api_key = "", 
+  api_secret = "" 
+)#paste your cloudinary config
 
 syntax = {
     "video_title": "Title (title should be seo optimized and trendy)",
@@ -146,12 +146,12 @@ def videogenerate():
     print(imagePromptArray)
     
     #makeinng folders to store images
-    temp_dir = 'C:/witheasiness/backend/images'
+    temp_dir = 'C:/witheasiness/backend/images' #change according to your system path
     print(temp_dir)
     
     #############
     #makeing foler to store audio
-    save_dir = 'C:/witheasiness/backend/audio'
+    save_dir = 'C:/witheasiness/backend/audio' #change according to your system path
     file_name = audioSrc.split('/')[-1]
     print(file_name)
     file_path = os.path.join(save_dir, file_name)
