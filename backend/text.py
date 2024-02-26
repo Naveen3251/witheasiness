@@ -4,7 +4,7 @@ from langchain_community.llms import Clarifai
 from langchain_core.output_parsers import StrOutputParser
 
 import os
-os.environ["CLARIFAI_PAT"] = "f6448afffae24e6c9da0bcaa48e22079"
+os.environ["CLARIFAI_PAT"] = ""
 
 class TextAI:
     def __init__(
