@@ -8,7 +8,7 @@ import { Path } from "react-hook-form";
 import test from "node:test";
 const fs = require('fs');
 export async function POST(request:Request){
-   const genAI = new GoogleGenerativeAI("AIzaSyCRk03hn4aNJVrI_cCbbXzA0Q3wiYXSgwE");
+   const genAI = new GoogleGenerativeAI("replace your Gemini api key");
     const model_vision = genAI.getGenerativeModel({ model: "gemini-pro-vision"});
     const model_script = genAI.getGenerativeModel({ model: "gemini-pro"});
     try{
