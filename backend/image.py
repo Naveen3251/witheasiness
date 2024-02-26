@@ -1,14 +1,15 @@
 from clarifai.client.model import Model
 
 import os
-os.environ["CLARIFAI_PAT"] = "378982a4a8e447afb261c847435dca84"
+os.environ["CLARIFAI_PAT"] = "" #place your clarfai PAT 
 class ImageAI:
+    #update your stuffs below
     def __init__(
         self,
-        user_id="openai",
-        app_id="dall-e",
-        model_id="dall-e-3",
-        model_version_id="dc9dcb6ee67543cebc0b9a025861b868",
+        user_id="",
+        app_id="",
+        model_id="",
+        model_version_id="",
     ):
 
         self.user_id = user_id
