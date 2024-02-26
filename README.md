@@ -1,7 +1,6 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://res.cloudinary.com/du49f4v2w/image/upload/v1708971614/hikfu2axrhtm14kv5zzr.png)
 
-# With Easiness
 Welcome to With Easiness, a groundbreaking project developed by Bytebots Brigade that revolutionizes how you interact with technology. With Easiness brings together the power of artificial intelligence to simplify various aspects of your life seamlessly. Here's what you can do with With Easiness:
 
 ## AI-Generated Video Creation
