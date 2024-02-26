@@ -6,7 +6,7 @@ import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 export async function POST(request: NextRequest) {
-  const genAI = new GoogleGenerativeAI("AIzaSyCRk03hn4aNJVrI_cCbbXzA0Q3wiYXSgwE");
+  const genAI = new GoogleGenerativeAI("replace with your gemini api key);
     const model = genAI.getGenerativeModel({ model: "gemini-pro"});
     try{
   
