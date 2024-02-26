@@ -3,8 +3,9 @@ from resemble import Resemble
 import requests
 
 
-
-os.environ["RESEMBLE_API_KEY"]="EqNczEgN1ItqCuc6hX50rgtt"
+#this file is for getting your project uuid and voice uuid tokens your have to replace api key 
+#run python test.py
+os.environ["RESEMBLE_API_KEY"]=""
 api_key = os.environ.get("RESEMBLE_API_KEY")
 Resemble.api_key(api_key)
 class A:
