@@ -7,6 +7,9 @@
 
 Witheasiness isn't just an app; it's a vision for the future of wellness. Whether you're aiming to optimize your nutrition, boost your fitness, or find inner peace, Witheasiness is poised to revolutionize your wellness journey.
 
+### Demo 
+https://youtu.be/KFiei55Nkrk?si=dQBPIYCz8MRXVPnb
+
 ### Smart Recipe Planner: Personalized Meal Solutions
 
 **Impact:**
